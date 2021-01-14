@@ -13,6 +13,7 @@
 		C06C41E425B0CC1A0064F32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06C41E325B0CC1A0064F32C /* Assets.xcassets */; };
 		C06C41E725B0CC1A0064F32C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06C41E625B0CC1A0064F32C /* Preview Assets.xcassets */; };
 		C06C41EA25B0CC1A0064F32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C06C41E825B0CC1A0064F32C /* LaunchScreen.storyboard */; };
+		C06C41F325B0CC890064F32C /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06C41F225B0CC890064F32C /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C06C41E625B0CC1A0064F32C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06C41E925B0CC1A0064F32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C06C41EB25B0CC1A0064F32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C06C41F225B0CC890064F32C /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C06C41DD25B0CC180064F32C /* AppDelegate.swift */,
 				C06C41DF25B0CC180064F32C /* SceneDelegate.swift */,
 				C06C41E125B0CC180064F32C /* ContentView.swift */,
+				C06C41F525B0CC900064F32C /* Models */,
 				C06C41E325B0CC1A0064F32C /* Assets.xcassets */,
 				C06C41E825B0CC1A0064F32C /* LaunchScreen.storyboard */,
 				C06C41EB25B0CC1A0064F32C /* Info.plist */,
@@ -73,6 +76,14 @@
 				C06C41E625B0CC1A0064F32C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C06C41F525B0CC900064F32C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C06C41F225B0CC890064F32C /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				C06C41DE25B0CC180064F32C /* AppDelegate.swift in Sources */,
 				C06C41E025B0CC180064F32C /* SceneDelegate.swift in Sources */,
+				C06C41F325B0CC890064F32C /* Hike.swift in Sources */,
 				C06C41E225B0CC180064F32C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
